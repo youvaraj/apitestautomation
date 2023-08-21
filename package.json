@@ -1,0 +1,24 @@
+{
+  "name": "api-axios-mocha",
+  "version": "1.0.0",
+  "description": "API test automation framework with JS & Mocha with report",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/apiTests.js"
+  },
+  "keywords": [
+    "mocha",
+    "js",
+    "api",
+    "testing",
+    "report"
+  ],
+  "author": "Youva Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "cli-table3": "^0.6.3",
+    "mocha": "^10.2.0"
+  }
+}
